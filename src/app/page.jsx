@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react";
-import { fetchImages } from "./api/img/route";
+import { fetchImages } from "./api";
 
 function Header() {
   return (
